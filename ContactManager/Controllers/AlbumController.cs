@@ -21,13 +21,13 @@ namespace ContactManager.Controllers
         // GET api/album
         public Album[] Get()
         {
-            return repo.GetAllContacts();
+            return repo.GetAllAlbuns();
         }
 
         // GET api/album/5
-        public string Get(int id)
+        public Album[] Get(int id)
         {
-            return "value";
+            return repo.getAlbum(id.ToString());
         }
 
         // POST api/album
@@ -41,13 +41,19 @@ namespace ContactManager.Controllers
         }
 
         // PUT api/album/5
-        public void Put(int id, [FromBody]string value)
+        public HttpResponseMessage Put(int id, Album album)
         {
+            this.repo.SaveAlbum(album);
+
+            var response = Request.CreateResponse<Album>(System.Net.HttpStatusCode.Created, album);
+
+            return response;
         }
 
         // DELETE api/album/5
-        public void Delete(int id)
+        public Album[] Delete(int id)
         {
+            return repo.deleteAlbum(id.ToString());
         }
     }
 }
