@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="ContactManager/ContactManager.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContactManager/Controllers/AlbumController.cs">
+    <Files>
+      <File FileName="ContactManager/Controllers/AlbumController.cs" Line="36" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/LuizBrandao/Xamarin/contactmanager/ContactManager/Controllers/AlbumController.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

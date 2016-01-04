@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Web.Http;
 using ContactManager.Services;
 using ContactManager.Models;
@@ -22,6 +18,7 @@ namespace ContactManager.Controllers
         }
 
         // GET api/album
+		[AcceptVerbs("GET")]
         public Album[] Get()
         {
             // Recupero todos os albuns no array
@@ -36,7 +33,7 @@ namespace ContactManager.Controllers
         }
 
         // POST api/album
-        public HttpResponseMessage Post(Album album)
+		public HttpResponseMessage Post(Album album)
         {
             //Adicino um novo album ao array
             this.repo.SaveAlbum(album);

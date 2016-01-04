@@ -23,11 +23,11 @@ namespace ContactManager.Services
                 {
                     var albuns = new Album[]
                     { 
-                        new Album{ id = 1, artist = "Luiz", title = "Ava"},
-                        new Album{ id = 2, artist = "Cezar", title = "ssa"},
-                        new Album{ id = 3, artist = "Brandao", title = "la"},
-                        new Album{ id = 4, artist = "Junior", title = "do"},
-                        new Album{ id = 5, artist = "Teste", title = "res"}
+                        new Album{ id = 1, artist = "Luiz", title = "C#"},
+                        new Album{ id = 2, artist = "Cezar", title = "PHP"},
+                        new Album{ id = 3, artist = "Brandao", title = "Java"},
+                        new Album{ id = 4, artist = "Junior", title = "Python"},
+                        new Album{ id = 5, artist = "Teste", title = "Ruby"}
                     };
 
                     ctx.Cache[CacheKey] = albuns;
