@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c000fe14-87bd-48a4-b4e8-0cb8001b2329" name="CESGEA@CESGEA-PC 2016-07-25 10:39:24" runUser="CESGEA-PC\CESGEA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e3612c5a-9cc0-4398-a720-7e7f59278455">
+    <Deployment userDeploymentRoot="C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1" useDefaultDeploymentRoot="false" runDeploymentRoot="CESGEA_CESGEA-PC 2016-07-25 10_39_24" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2016-07-25T10:39:24.4975296-04:00" queuing="2016-07-25T10:39:25.7496012-04:00" start="2016-07-25T10:39:25.8756084-04:00" finish="2016-07-25T10:39:26.4116391-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="bin\debug\unittestproject1.dll" id="5b688acc-bf10-4c7e-4b60-69d8596bdd90">
+      <Execution id="95fe81d6-5822-4061-952a-93531c79d257" />
+      <TestMethod codeBase="C:/Users/CESGEA/Documents/Visual Studio 2015/Projects/contactmanager/UnitTestProject1/bin/Debug/UnitTestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestProject1.UnitTest1, UnitTestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5b688acc-bf10-4c7e-4b60-69d8596bdd90" executionId="95fe81d6-5822-4061-952a-93531c79d257" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="95fe81d6-5822-4061-952a-93531c79d257" testId="5b688acc-bf10-4c7e-4b60-69d8596bdd90" testName="TestMethod1" computerName="CESGEA-PC" duration="00:00:00.0121111" startTime="2016-07-25T10:39:25.9146106-04:00" endTime="2016-07-25T10:39:26.3646364-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95fe81d6-5822-4061-952a-93531c79d257">
+    </UnitTestResult>
+  </Results>
+</TestRun>
