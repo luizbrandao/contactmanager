@@ -1,0 +1,6 @@
+C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\CESGEA\Documents\Visual Studio 2015\Projects\contactmanager\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
